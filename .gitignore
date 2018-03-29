@@ -1,28 +1,64 @@
-# Compiled Object files
-*.slo
-*.lo
+# Object files
 *.o
+*.ko
 *.obj
+*.elf
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Libraries
 *.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
 
 # Executables
-*.exe
+!*.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+# Code::Blocks / CodeLite files
+*.depend
+*.layout
+.codelite
+Makefile
+*.workspace
+*.d
+*.mk
+Debug/
+
+#Visual studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+stdafx.*
+*.tlog
+*.ilk
+*.log
+*.obj
+*.pch
+*.pdb
+*.idb
+*.dp
+*.ipch
+*.suo
+*.json
+*.project
+*.txt
+# Personal projects
+_*
